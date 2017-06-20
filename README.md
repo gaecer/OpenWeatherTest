@@ -12,6 +12,7 @@ To install the dependencies run `pod install` to the rood directory
 )
 
 **Usage:**
+Open the project with OpenWeatherMap.xcworkspace file (be carefull NOT the .xcodeproj file)
 Go to Config.swift and put you OpenWeather API KEY
 
 **General Information:**
@@ -26,6 +27,8 @@ The project is in swift3
   - London
 
 When the app start the user is notified about the app is going to detect the GPS position, if user allow the detection the app get the weather forecast of the user's position, otherwise it shows the London weather forecast.
+
+I've remapped some OpenWeatherMap icon with some custom icon (much more cool), and also the background of the app changes according to the weather conditions.
 
 **Unit Test:**
 Inside the project you can find MainControllerTests class on where you can find a couple of unit test to run (testSetDays, testSetTemps).
@@ -44,7 +47,7 @@ These are all the points I would like to upgrade in the future:
   - The app will require more Unit Test, and when the UI will be improved I'll provide also UI Test
 
 **External resources notes:**
-The app require OpenWeatherSwift pod, I did a fork of this library because the parser was not aligned to the current version of OpenWeatherMap API.
+The app require OpenWeatherSwift pod (Forked from Fri3ndlyGerman/OpenWeatherSwift), I did a fork of this library because the parser was not aligned to the current version of OpenWeatherMap API.
 OpenWeatherSwift has two pods dependencies: Alamofire and SwiftyJSON, to manage the remote API calls and to parse the JSON datas easily.
 
 **Author:**
