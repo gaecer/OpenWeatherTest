@@ -1,0 +1,27 @@
+PODS:
+  - Alamofire (4.4.0)
+  - OpenWeatherSwift (1.0.0):
+    - Alamofire
+    - SwiftyJSON
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - OpenWeatherSwift (from `https://github.com/gaecer/OpenWeatherSwift.git`)
+
+EXTERNAL SOURCES:
+  OpenWeatherSwift:
+    :git: https://github.com/gaecer/OpenWeatherSwift.git
+
+CHECKOUT OPTIONS:
+  OpenWeatherSwift:
+    :commit: e897ce020919d0ce4567f54effaff781d2f78ede
+    :git: https://github.com/gaecer/OpenWeatherSwift.git
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  OpenWeatherSwift: ede598b5d249bbc6071aa77a5ad49a77381dcfb9
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: ac807af929646f363bef170e96f33fe292e34fde
+
+COCOAPODS: 1.0.0
